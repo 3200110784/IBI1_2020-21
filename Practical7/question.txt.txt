@@ -1,0 +1,6 @@
+Q: Plot a boxplot of total case numbers in different countries on 14 March 2020.
+
+Question is addressed from line 44.
+
+I made a boxplot of total case numbers in different countries on 2020/3/14. 
+Data of most countries are concentrated, but some countries had a huge number of total case that day. 
