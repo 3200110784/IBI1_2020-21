@@ -42,7 +42,7 @@ plt.legend()
 #make a figure anout world new cases and world new deaths
 
 #Plot a boxplot of total case numbers in different countries on 14 March 2020
-total_cases=covid_data.loc[(covid_data["date"]=="2020/3/14"),'total_cases']
+total_cases=covid_data.loc[(covid_data["date"]=="2020-3-14"),'total_cases']
 plt.figure()
 plt.boxplot(total_cases,vert=True, whis=1.5,patch_artist=True,meanline=False,showbox=True,showcaps=True,showfliers=True,notch=False, boxprops={'color':'pink','facecolor':'orangered'})
 plt.title("total cases boxplot")
