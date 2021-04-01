@@ -1,5 +1,5 @@
 fname=input('enter the file name:')
-genes=open(fname)
+genes=open('Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa')
 import re
 import os
 
@@ -56,3 +56,4 @@ for i in range (0,len(d),3):
     pr=pr+genetic_code[d[i:i+3]]#add amino acid to protein
 output.write(pr)
 output.close()
+genes.close()
